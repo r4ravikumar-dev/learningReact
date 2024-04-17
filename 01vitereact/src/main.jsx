@@ -20,7 +20,7 @@ const ractElement = React.createElement(
   'a',
   { href: 'https://reactjs.org', target: '_blank' },
   'Click me to visit this page' 
-) // this is the strucute how react compiled
+) // this is the strucute how react compiledness works
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
