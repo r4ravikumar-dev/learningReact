@@ -1,14 +1,13 @@
-
+import Chai from "./chai";
 
 function App() {
  
 
   return (
     
-    <h1>
-      learning React with vite from Chai aur Code | Ravi Kumar 
-    </h1>
+  
+    <Chai/>
   )
 }
 
-export default App
+export default App;
