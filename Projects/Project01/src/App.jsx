@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="min-h-screen w-full flex flex-wrap flex-col justify-center bg-gradient-to-r from-violet-700 to to-fuchsia-900 ">
       <div className="flex flex-wrap items-center justify-center text-center ">
-        <h1 className="text-4xl font-bold text-blue-400">Chai aur React</h1>
+        <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 via-blue-300 to-indigo-500 inline-block text-transparent bg-clip-text">Chai aur React</h1>
       </div>
       <div className="flex flex-wrap items-center justify-center text-center mt-4 mb-8 ">
         <h1 className="text-6xl font-bold text-yellow-400 border-b-4 border-yellow-500">Number counter</h1>
