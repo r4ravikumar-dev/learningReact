@@ -1,0 +1,24 @@
+{
+    "image": [
+        {
+            "src": "https://picsum.photos/1600/1400?random=11.jpg",
+            "alt": "Image 1 for carousel"
+        },
+        {
+            "src": "https://picsum.photos/1600/1400?random=12.jpg",
+            "alt": "Image 2 for carousel"
+        },
+        {
+            "src": "https://picsum.photos/1600/1400?random=13.jpg",
+            "alt": "Image 3 for carousel"
+        },
+        {
+            "src": "https://picsum.photos/1600/1400?random=14.jpg",
+            "alt": "Image 4 for carousel"
+        },
+        {
+            "src": "https://picsum.photos/1600/1400?random=15.jpg",
+            "alt": "Image 5 for carousel"
+        }
+    ]
+}
