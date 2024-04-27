@@ -16,9 +16,10 @@ function Image() {
         </div>
         <div className="flex flex-wrap items-center justify-center text-center m-8">
           <p className="text-xl font-semibold text-white">
-            Here I tested the reusebility of the component in the Rect  
+            Here I tested the reusebility of the component in the React 
           </p>
         </div>
+
       </div>
     );
   }
