@@ -35,10 +35,13 @@ function App() {
   return (
     <>
       <div className=" min-h-screen w-full flex flex-wrap flex-col justify-center items-center">
-        <h1 className="text-4xl font-bold font-mono text-white bg-blue-600 rounded-2xl px-6 py-2 cursor-pointer ">
+        <div className="flex flex-col w-2/5  item center justify-center bg-slate-400 rounded-xl overflow-hidden">
+        <div className="max-w-md mx-auto mt-8">
+        <h1 className="text-4xl item-center font-bold font-mono text-white bg-blue-600 rounded-xl px-6 py-2 cursor-pointer ">
           Password Generator_
         </h1>
-        <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 my-8 text-orange-500 bg-gray-200">
+        </div>
+        <div className="w-full max-w-md mx-auto border-2 border-blue-200 shadow-md rounded-lg px-4 mb-16 mt-8 text-orange-500 bg-gray-200">
           <h1 className="text-center text-xl font-semibold text-green-600 mt-2 cursor-pointer ">
             Your generated password is:
           </h1>
@@ -90,6 +93,7 @@ function App() {
             made with &#9829; by &nbsp;
             <a href="http://github.com/r4ravikumar-dev" className="text-blue-300 border-b-2 border-blue-300">Ravi Kumar</a>
           </div>
+        </div>
         </div>
       </div>
     </>
