@@ -35,7 +35,7 @@ function App() {
   return (
     <>
       <div className=" min-h-screen w-full flex flex-wrap flex-col justify-center items-center">
-        <div className="flex flex-col w-2/5  item center justify-center bg-slate-400 rounded-xl overflow-hidden">
+        <div className="flex flex-col w-full sm:w-1/2 item center justify-center bg-slate-400 rounded-xl overflow-hidden">
         <div className="max-w-md mx-auto mt-8">
         <h1 className="text-4xl item-center font-bold font-mono text-white bg-blue-600 rounded-xl px-6 py-2 cursor-pointer ">
           Password Generator_
