@@ -11,8 +11,7 @@ function App() {
     else {
       counter = 25
       alert("The value of the counter can't be more than 25");
-    }
-      
+    } 
   }
 
   const removeValue = () => {
@@ -21,8 +20,7 @@ function App() {
     else{
       counter = 0
       alert("The value of the counter can't be negative");
-    }
-      
+    }  
   }
   
   const resetValue =() => {
