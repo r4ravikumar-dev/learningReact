@@ -14,10 +14,10 @@ function App() {
     let pass = "";
     let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
     if (numberAllowed) str += "0123456789"
-    if (charAllowed) str += "!@#$%^&*_+=-<>?:;,./|`~"
+    if (charAllowed) str += "!@#$%^&*_+=-<>?:;,./|`"
 
-    for (let i = 1; i <= length; i++) {
-      const char= Math.floor(Math.random() * str.length+1)
+    for (let i = 1; i <= length ; i++) {
+      let char= Math.floor(Math.random() * str.length + 1)
       pass += str.charAt(char)
     }
 
@@ -35,7 +35,7 @@ function App() {
   return (
     <>
       <div className=" min-h-screen w-full flex flex-wrap flex-col justify-center items-center">
-        <div className="flex flex-col w-full sm:w-1/2 item center justify-center bg-slate-400 rounded-xl overflow-hidden">
+        <div className="flex flex-col w-full sm:w-1/2 item center justify-center bg-cover rounded-xl overflow-hidden" style={{backgroundImage: `url('/image.png')`}}>
         <div className="max-w-md mx-auto mt-8">
         <h1 className="text-4xl item-center font-bold font-mono text-white bg-blue-600 rounded-xl px-6 py-2 cursor-pointer ">
           Password Generator_
@@ -91,7 +91,7 @@ function App() {
           </div>
           <div className="text-center text-[14px] mb-4">
             made with &#9829; by &nbsp;
-            <a href="http://github.com/r4ravikumar-dev" className="text-blue-300 border-b-2 border-blue-300">Ravi Kumar</a>
+            <a href="http://github.com/r4ravikumar-dev" className="text-gray-400 border-b-2 border-gray-400">Ravi Kumar</a>
           </div>
         </div>
         </div>
